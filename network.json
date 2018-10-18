@@ -11,7 +11,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
+            "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
         },
         {
@@ -27,15 +27,17 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "siddharth0492",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-18 04:59:30",
+    "updated_at": "2018-10-18 05:03:29",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
