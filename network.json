@@ -176,8 +176,11 @@
         },
         {
             "name": "murderColor_zoommap.png"
+        },
+        {
+            "name": "population_zoommap.png"
         }
     ],
-    "updated_at": "2018-10-18 06:36:53",
+    "updated_at": "2018-10-18 06:37:45",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
