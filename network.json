@@ -120,10 +120,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "siddharth0492",
             "desc": "",
-            "name": "map_US.R"
+            "name": "map_US.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "areaColor_map.png"
         }
     ],
-    "updated_at": "2018-10-18 06:17:00",
+    "updated_at": "2018-10-18 06:29:59",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
