@@ -57,6 +57,22 @@
             ],
             "source": "area_center.R",
             "target": "zoom.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "long_nyc",
+                    "output": "long_nyc",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "lat_nyc",
+                    "output": "lat_nyc",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "zoom.R",
+            "target": "plots_map.R"
         }
     ],
     "nodes": [
@@ -87,10 +103,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "siddharth0492",
             "desc": "",
-            "name": "zoom.R"
+            "name": "zoom.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 06:12:47",
+    "updated_at": "2018-10-18 06:14:19",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
