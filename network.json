@@ -23,8 +23,12 @@
             "assigned_to": "siddharth0492",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "mergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-18 05:04:42",
+    "updated_at": "2018-10-18 05:21:43",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
