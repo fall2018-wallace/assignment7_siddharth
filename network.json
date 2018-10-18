@@ -94,6 +94,16 @@
             ],
             "source": "plots_map.R",
             "target": "areaColor_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderColor_map",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_map.R",
+            "target": "murderColor_map.png"
         }
     ],
     "nodes": [
@@ -142,6 +152,6 @@
             "name": "murderColor_map.png"
         }
     ],
-    "updated_at": "2018-10-18 06:31:09",
+    "updated_at": "2018-10-18 06:31:33",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
