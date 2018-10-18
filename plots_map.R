@@ -24,8 +24,8 @@ populationascircle_map<-murderColor_map +
 murderColor_zoommap<-ggplot(df_final,aes(map_id=stateName)) +
   geom_map(map=us,aes(fill=Murder)) +
   coord_map()+
-  xlim(long_nyc-10,long_nyc+10)+
-  ylim(lat_nyc-10,lat_nyc+10)+
+  xlim(longitude_nyc-10,longitude_nyc+10)+
+  ylim(latitude_nyc-10,latitude_nyc+10)+
   ggtitle("northeastern region of US based on murder rate")
 
 #showing only north-east region for above two maps-color based on murder and points based on population
