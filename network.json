@@ -74,8 +74,12 @@
             "desc": "",
             "name": "plots_map.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "zoom.R"
         }
     ],
-    "updated_at": "2018-10-18 06:04:34",
+    "updated_at": "2018-10-18 06:10:43",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
