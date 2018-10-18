@@ -163,8 +163,11 @@
         },
         {
             "name": "populationascircle_map.png"
+        },
+        {
+            "name": "murderColor_zoommap.png"
         }
     ],
-    "updated_at": "2018-10-18 06:33:11",
+    "updated_at": "2018-10-18 06:36:32",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
