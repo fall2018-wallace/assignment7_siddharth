@@ -16,7 +16,7 @@ murderColor_map<-ggplot(df_final,aes(map_id=stateName)) +
   ggtitle("state map of US based on murder rate")
   
 #plotting color coded map based on Murder rate and population as circle per state
-polpulationascircle_map<-murderColor_map +
+populationascircle_map<-murderColor_map +
   geom_point(data=df_final,aes(x=long,y=lat,size=population))+
   ggtitle("state map of US based on murder rate and population")
   
