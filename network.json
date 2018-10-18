@@ -104,6 +104,16 @@
             ],
             "source": "plots_map.R",
             "target": "murderColor_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "populationascircle_map",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_map.R",
+            "target": "populationascircle_map.png"
         }
     ],
     "nodes": [
@@ -155,6 +165,6 @@
             "name": "populationascircle_map.png"
         }
     ],
-    "updated_at": "2018-10-18 06:32:32",
+    "updated_at": "2018-10-18 06:33:11",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
