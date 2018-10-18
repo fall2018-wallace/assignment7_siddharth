@@ -84,6 +84,16 @@
             ],
             "source": "map_US.R",
             "target": "plots_map.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "areaColor_map",
+                    "type": "png"
+                }
+            ],
+            "source": "plots_map.R",
+            "target": "areaColor_map.png"
         }
     ],
     "nodes": [
@@ -129,6 +139,6 @@
             "name": "areaColor_map.png"
         }
     ],
-    "updated_at": "2018-10-18 06:29:59",
+    "updated_at": "2018-10-18 06:30:18",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
