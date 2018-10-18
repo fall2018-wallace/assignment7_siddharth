@@ -61,22 +61,6 @@
         {
             "ports": [
                 {
-                    "input": "long_nyc",
-                    "output": "long_nyc",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "lat_nyc",
-                    "output": "lat_nyc",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "zoom.R",
-            "target": "plots_map.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "us",
                     "output": "us",
                     "type": "r_obj"
@@ -134,6 +118,22 @@
             ],
             "source": "plots_map.R",
             "target": "population_zoommap.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "longitude_nyc",
+                    "output": "longitude_nyc",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "latitude_nyc",
+                    "output": "latitude_nyc",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "zoom.R",
+            "target": "plots_map.R"
         }
     ],
     "nodes": [
@@ -191,6 +191,6 @@
             "name": "population_zoommap.png"
         }
     ],
-    "updated_at": "2018-10-18 06:38:16",
+    "updated_at": "2018-10-18 06:40:15",
     "url": "https://github.com/fall2018-wallace/assignment7_siddharth"
 }
